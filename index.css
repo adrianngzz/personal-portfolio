@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inria Sans", sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-size: 32px;
+}
+
+.navbar img {
+    width: 150px;
+    height: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration-line: underline;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+
+.main-content-left {
+    width: 70%;
+}
+
+.main-content-right h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.main-content-right p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-left {
+    margin: 12px;
+    margin-left: 0;
+    outline: 1px solid #4384D1;
+    border-radius: 4px;
+}
+
+.inner-left a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4384D1
+}
+
+#github {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 4px;
+    padding-left: 12px;
+}
+
+#github img {
+    background-color: #4384D1;
+    width: 32px;
+    padding: 4px;
+    margin-left: 12px;
+}
+
+.inner-right {
+    margin: 12px;
+    margin-left: 0;
+    outline: 1px solid #4384D1;
+    border-radius: 4px;
+}
+
+.inner-right a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #4384D1;
+}
+
+#linkedin {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 4px;
+    padding-left: 12px;
+}
+
+#linkedin img {
+    width: 24px;
+    padding: 8px;
+    margin-left: 12px;
+}
